@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Primary Meta Tags for SEO -->
+    <title>Webtank Solutions - Comprehensive IT Services & Support in Pretoria</title>
+    <meta name="title" content="Webtank Solutions - Comprehensive IT Services & Support in Pretoria">
+    <meta name="description" content="Professional IT services in Pretoria including web development, hosting, SEO, branding and cyber security. Helping businesses grow with custom IT solutions.">
+    <meta name="keywords" content="IT services, web development, hosting, SEO, cyber security, Pretoria, South Africa, branding, app development, web design">
+    <meta name="author" content="Webtank Solutions">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <meta name="revisit-after" content="7 days">
+    
+    <!-- Canonical URL -->
+    <meta rel="canonical" href="https://www.webtank.co.za">
+    
+    <!-- Open Graph / Facebook Meta Tags -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.webtank.co.za">
+    <meta property="og:title" content="Webtank Solutions - IT Services & Support in Pretoria">
+    <meta property="og:description" content="Professional IT services including web development, hosting, SEO, branding and cyber security. Custom IT solutions for businesses in South Africa.">
+    <meta property="og:image" content="https://www.webtank.co.za/assets/images/webtank-preview.jpg">
+    <meta property="og:site_name" content="Webtank Solutions">
+    <meta property="og:locale" content="en_ZA">
+    
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:url" content="https://www.webtank.co.za">
+    <meta name="twitter:title" content="Webtank Solutions - IT Services in Pretoria">
+    <meta name="twitter:description" content="Professional IT services including web development, hosting, SEO, branding and cyber security for businesses in South Africa.">
+    <meta name="twitter:image" content="https://www.webtank.co.za/assets/images/webtank-preview.jpg">
+    
+    <!-- Business Information Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "Webtank Solutions",
+      "url": "https://www.webtank.co.za",
+      "logo": "https://www.webtank.co.za/assets/images/logo.png",
+      "image": "https://www.webtank.co.za/assets/images/webtank-preview.jpg",
+      "description": "Professional IT services in Pretoria including web development, hosting, SEO, branding and cyber security.",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "Wonderpark Estate",
+        "addressLocality": "Akasia",
+        "postalCode": "0182",
+        "addressRegion": "Gauteng",
+        "addressCountry": "ZA"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": "-25.6694",
+        "longitude": "28.1857"
+      },
+      "telephone": "+27670835563",
+      "email": "tshidi.motebs@gmail.com",
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday"],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
+      ],
+      "sameAs": [
+        "https://www.facebook.com/webtanksolutions",
+        "https://www.instagram.com/webtanksolutions",
+        "https://www.linkedin.com/company/webtanksolutions"
+      ],
+      "priceRange": "R200 - R5000",
+      "serviceType": ["Web Development", "SEO Services", "Cyber Security", "App Development", "Branding"]
+    }
+    </script>
+    
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Apple Touch Icons -->
+    <link rel="apple-touch-icon" href="apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180x180.png">
+    
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #4361ee;
+            --secondary-color: #3a0ca3;
+            --accent-color: #4cc9f0;
+            --light-color: #f8f9fa;
+            --dark-color: #212529;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            color: var(--dark-color);
+            min-height: 100vh;
+        }
+        
+        .navbar {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+        }
+        
+        .navbar-brand {
+            font-weight: 700;
+            color: var(--primary-color);
+        }
+        
+        .logo-text {
+            background: linear-gradient(to right, var(--primary-color), var(--accent-color));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+            font-weight: 700;
+        }
+        
+        .nav-link {
+            color: var(--dark-color);
+            font-weight: 500;
+            transition: all 0.3s;
+            margin: 0 5px;
+            padding: 10px 15px;
+            border-radius: 8px;
+        }
+        
+        .nav-link:hover {
+            background: rgba(255, 255, 255, 0.3);
+            color: var(--primary-color);
+        }
+        
+        .glass-card {
+            background: rgba(255, 255, 255, 0.2);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+            padding: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s, box-shadow 0.3s;
+            height: 100%;
+        }
+        
+        .glass-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+        }
+        
+        .hero {
+            padding: 100px 0;
+            /* background-image: url('/api/placeholder/1200/500');
+            background-size: cover; */
+            background-color: #0d6efd;
+            background-position: center;
+            position: relative;
+            background-attachment: fixed;
+        }
+        
+        .hero::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            text-align: center;
+            color: white;
+        }
+        
+        .btn-primary {
+            background: linear-gradient(to right, var(--primary-color), var(--accent-color));
+            border: none;
+            padding: 12px 30px;
+            border-radius: 50px;
+            font-weight: 600;
+            transition: all 0.3s;
+            box-shadow: 0 4px 15px rgba(67, 97, 238, 0.3);
+        }
+        
+        .btn-primary:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 20px rgba(67, 97, 238, 0.4);
+        }
+        
+        .section-title {
+            position: relative;
+            margin-bottom: 50px;
+            font-weight: 700;
+        }
+        
+        .section-title::after {
+            content: "";
+            position: absolute;
+            bottom: -15px;
+            left: 0;
+            width: 50px;
+            height: 3px;
+            background: var(--primary-color);
+        }
+        
+        .service-icon {
+            font-size: 3rem;
+            margin-bottom: 20px;
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            -webkit-background-clip: text;
+            background-clip: text;
+            color: transparent;
+        }
+        
+        .service-price {
+            font-weight: 700;
+            color: var(--primary-color);
+            margin-top: 15px;
+        }
+        
+        .solution-icon {
+            width: 80px;
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 24px;
+            background: rgba(255, 255, 255, 0.3);
+            margin-bottom: 20px;
+            color: var(--primary-color);
+            font-size: 2rem;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        .testimonial-card {
+            text-align: center;
+            padding: 30px;
+        }
+        
+        .testimonial-img {
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin: 0 auto 20px;
+            border: 3px solid var(--primary-color);
+        }
+        
+        .contact-info {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+        
+        .contact-icon {
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-right: 15px;
+            color: var(--primary-color);
+        }
+        
+        footer {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-top: 1px solid rgba(255, 255, 255, 0.3);
+            padding: 50px 0 20px;
+        }
+        
+        .footer-heading {
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: var(--primary-color);
+        }
+        
+        .footer-links {
+            list-style: none;
+            padding: 0;
+        }
+        
+        .footer-links li {
+            margin-bottom: 10px;
+        }
+        
+        .footer-links a {
+            color: var(--dark-color);
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+        
+        .footer-links a:hover {
+            color: var(--primary-color);
+            padding-left: 5px;
+        }
+        
+        .social-icons a {
+            display: inline-flex;
+            width: 40px;
+            height: 40px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 12px;
+            align-items: center;
+            justify-content: center;
+            margin-right: 10px;
+            color: var(--primary-color);
+            transition: all 0.3s;
+        }
+        
+        .social-icons a:hover {
+            background: var(--primary-color);
+            color: white;
+            transform: translateY(-3px);
+        }
+        
+        @media (max-width: 768px) {
+            .hero {
+                padding: 70px 0;
+            }
+            
+            .section-title {
+                margin-bottom: 35px;
+            }
+            
+            .glass-card {
+                padding: 20px;
+                margin-bottom: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <span class="logo-text">Webtank</span> Solutions
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#solutions">Solutions</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="display-4 fw-bold mb-4">Comprehensive IT Solutions & Support</h1>
+                <p class="lead mb-5">We handle all your IT needs so you can focus on growing your business.</p>
+                <a href="#contact" class="btn btn-primary">Get Started</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <h2 class="section-title">About Webtank Solutions</h2>
+                    <p class="mb-4">We provide IT-related products and support services, including cloud-based solutions, remote support, on-site support, help desk, networking, and security. We also specialize in software development and communication solutions.</p>
+                    <div class="row mt-4">
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="text-center">
+                                <i class="fas fa-paint-brush service-icon"></i>
+                                <p class="mt-2">Logo Designer</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="text-center">
+                                <i class="fas fa-desktop service-icon"></i>
+                                <p class="mt-2">UI Designer</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="text-center">
+                                <i class="fas fa-server service-icon"></i>
+                                <p class="mt-2">IT Solutions</p>
+                            </div>
+                        </div>
+                        <div class="col-6 col-md-3 mb-3">
+                            <div class="text-center">
+                                <i class="fas fa-code service-icon"></i>
+                                <p class="mt-2">Web Develop</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="glass-card h-100">
+                        <!-- <img src="https://pin.it/2m12ERpw5" alt="About Us" class="img-fluid rounded"> -->
+                         <img src="https://wallpaperaccess.com/full/796835.jpg" style="height: 250px; height: 245px;" alt="">
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="section-title text-center mb-5">Our Services</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card">
+                        <i class="fas fa-palette service-icon"></i>
+                        <h4>Branding</h4>
+                        <p>We help online shops owners logo designs, corporate identity designs, packaging designs, social media content design.</p>
+                        <p class="service-price">Price: R1,400 per project</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card">
+                        <i class="fas fa-share-alt service-icon"></i>
+                        <h4>Social Account Creation</h4>
+                        <p>We help online shops owners logo designs, corporate identity designs, packaging designs, social media content design.</p>
+                        <p class="service-price">Price: R800 per project</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card">
+                        <i class="fas fa-sync service-icon"></i>
+                        <h4>Domain Renewal</h4>
+                        <p>Annual re-registration of the name.</p>
+                        <p class="service-price">Price: R550 per year</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card">
+                        <i class="fas fa-search service-icon"></i>
+                        <h4>SEO Services</h4>
+                        <p>Optimization & improving the quality and quantity of website traffic to your website from search engines.</p>
+                        <p class="service-price">Price: R5,000 per project</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card">
+                        <i class="fas fa-envelope service-icon"></i>
+                        <h4>Email & Device Setup</h4>
+                        <p>Creating email addresses for support and sales. Setting up devices to sync mail, calendar, and contact list.</p>
+                        <p class="service-price">Price: R200 per project</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card">
+                        <i class="fas fa-globe service-icon"></i>
+                        <h4>Domain Registration & Website Hosting</h4>
+                        <p>We will register your domain and set up hosting for you. Assistance with domain transfers is available.</p>
+                        <p class="service-price">Price: Available on request</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card">
+                        <i class="fas fa-laptop-code service-icon"></i>
+                        <h4>Website Design & Hosting</h4>
+                        <p>Designing and hosting your website.</p>
+                        <p class="service-price">Price: R3,500 per year</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card">
+                        <i class="fas fa-paint-brush service-icon"></i>
+                        <h4>Branding (Logos & Banners)</h4>
+                        <p>Designing logos, banners, and business cards.</p>
+                        <p class="service-price">Price: R1,500 per year</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Custom IT Solutions for Your Successful Business</h2>
+            <div class="row mt-5">
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card text-center">
+                        <div class="solution-icon mx-auto">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h4>Cyber Security</h4>
+                        <p>Protect your business with cutting-edge cybersecurity solutions, ensuring data safety and risk mitigation.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card text-center">
+                        <div class="solution-icon mx-auto">
+                            <i class="fas fa-chart-bar"></i>
+                        </div>
+                        <h4>Data Analytics</h4>
+                        <p>Leverage data-driven insights to make informed decisions and optimize business performance.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card text-center">
+                        <div class="solution-icon mx-auto">
+                            <i class="fas fa-laptop-code"></i>
+                        </div>
+                        <h4>Web Development</h4>
+                        <p>We create high-performance, responsive, and scalable websites to enhance your online presence.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card text-center">
+                        <div class="solution-icon mx-auto">
+                            <i class="fas fa-mobile-alt"></i>
+                        </div>
+                        <h4>Apps Development</h4>
+                        <p>Custom mobile and web application development tailored to your business needs and user engagement.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card text-center">
+                        <div class="solution-icon mx-auto">
+                            <i class="fas fa-search"></i>
+                        </div>
+                        <h4>SEO Optimization</h4>
+                        <p>Improve search engine rankings and drive organic traffic to your website with advanced SEO techniques.</p>
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-4 mb-4">
+                    <div class="glass-card text-center">
+                        <div class="solution-icon mx-auto">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h4>Cloud Solutions</h4>
+                        <p>Scalable cloud infrastructure and services to improve efficiency and reduce operational costs.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-5 bg-primary text-white">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 mb-4 mb-lg-0">
+                    <h2 class="fw-bold">Ready to transform your business with our IT solutions?</h2>
+                    <p class="lead mb-0">Get in touch today for a free consultation.</p>
+                </div>
+                <div class="col-lg-4 text-lg-end">
+                    <a href="#contact" class="btn btn-light btn-lg px-4">Contact Us Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <h2 class="section-title text-center">Contact Us</h2>
+            <div class="row mt-5">
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <div class="glass-card h-100">
+                        <h4 class="mb-4">Get In Touch</h4>
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div>
+                                <p class="mb-0">Wonderpark Estate, Akasia, 0182, South Africa</p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone-alt"></i>
+                            </div>
+                            <div>
+                                <p class="mb-0">067 083 5563</p>
+                            </div>
+                        </div>
+                        <div class="contact-info">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div>
+                                <p class="mb-0">info@webtanksolutions.com</p>
+                            </div>
+                        </div>
+                        <div class="mt-4">
+                            <h5>Follow Us</h5>
+                            <div class="social-icons mt-3">
+                                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-instagram"></i></a>
+                                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="glass-card">
+                        <h4 class="mb-4">Send Us a Message</h4>
+                        <div formsappId="67dbe3f8c2c35600029510dc"></div>
+<script src="https://forms.app/static/embed.js" type="text/javascript" async defer onload="new formsapp('67dbe3f8c2c35600029510dc', 'standard', {'width':'100vw','height':'600px'}, 'https://qgvh3v1j.forms.app');"></script>
+                        <!-- <form action="send_email.php" method="POST"></form>
+                            <div class="row">
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-md-6 mb-3">
+                                    <div class="form-floating">
+                                        <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-floating">
+                                    <input type="text" class="form-control" id="subject" name="subject" placeholder="Subject" required>
+                                    <label for="subject">Subject</label>
+                                </div>
+                            </div>
+                            <div class="mb-3">
+                                <div class="form-floating">
+                                    <textarea class="form-control" id="message" name="message" placeholder="Your Message" style="height: 120px" required></textarea>
+                                    <label for="message">Your Message</label>
+                                </div>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form> -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="footer-heading">About Webtank Solutions</h5>
+                    <p>We provide comprehensive IT solutions and support services to help businesses thrive in the digital era.</p>
+                    <div class="social-icons mt-3">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-2 mb-4 mb-md-0">
+                    <h5 class="footer-heading">Quick Links</h5>
+                    <ul class="footer-links">
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li>
+                        <li><a href="#solutions">Solutions</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3 mb-4 mb-md-0">
+                    <h5 class="footer-heading">Services</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">App Development</a></li>
+                        <li><a href="#">Cyber Security</a></li>
+                        <li><a href="#">SEO Optimization</a></li>
+                    </ul>
+                </div>
+                <div class="col-md-3">
+                    <h5 class="footer-heading">Contact</h5>
+                    <ul class="footer-links">
+                        <li><i class="fas fa-map-marker-alt me-2"></i> Wonderpark Estate, Akasia</li>
+                        <li><i class="fas fa-phone-alt me-2"></i> 067 083 5563</li>
+                        <li><i class="fas fa-envelope me-2"></i> info@webtanksolutions.com</li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center">
+                <p class="mb-0">&copy; 2025 Webtank Solutions. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.0/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
